@@ -1,39 +1,22 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : dbmts
- Source Server Type    : PostgreSQL
- Source Server Version : 120015 (120015)
- Source Host           : dbmts.mtsapi.com:5432
- Source Catalog        : prfmis
- Source Schema         : public
-
- Target Server Type    : PostgreSQL
- Target Server Version : 120015 (120015)
- File Encoding         : 65001
-
- Date: 18/07/2023 14:46:09
-*/
-
-
 -- ----------------------------
 -- Table structure for villages
 -- ----------------------------
 DROP TABLE IF EXISTS "public"."villages";
 CREATE TABLE "public"."villages" (
-  "id" varchar COLLATE "pg_catalog"."default" NOT NULL,
-  "vill_lo" varchar(255) COLLATE "pg_catalog"."default" NOT NULL,
-  "vill_en" varchar(255) COLLATE "pg_catalog"."default",
-  "dist_id" varchar(10) COLLATE "pg_catalog"."default"
+  "vil_id" int4 NOT NULL,
+  "vil_lo" varchar(255) COLLATE "pg_catalog"."default",
+  "vil_en" varchar(255) COLLATE "pg_catalog"."default",
+  "dist_id" int4
 )
 ;
+ALTER TABLE "public"."villages" OWNER TO "root";
 
 -- ----------------------------
 -- Primary Key structure for table villages
 -- ----------------------------
-ALTER TABLE "public"."villages" ADD CONSTRAINT "villages_pkey" PRIMARY KEY ("id");
+ALTER TABLE "public"."villages" ADD CONSTRAINT "villages_pkey" PRIMARY KEY ("vil_id");
 
 -- ----------------------------
 -- Foreign Keys structure for table villages
 -- ----------------------------
-ALTER TABLE "public"."villages" ADD CONSTRAINT "fk_villages_districts" FOREIGN KEY ("dist_id") REFERENCES "public"."districts" ("dist_id") ON DELETE NO ACTION ON UPDATE NO ACTION;
+ALTER TABLE "public"."villages" ADD CONSTRAINT "dist_id" FOREIGN KEY ("dist_id") REFERENCES "public"."districts" ("dist_id") ON DELETE RESTRICT ON UPDATE CASCADE;
