@@ -1,5 +1,7 @@
 # Laos Administrative Database(Provinces, Districts, Villages) in PostgreSQL format
 # ຖານຂໍ້ມູນ ການປົກຄອງ ສປປລາວ ແຍກອອກເປັນ ແຂວງ, ເມືອງ ແລະ ບ້ານ ໃນຮູບແບບຂອງ ຖານຂໍ້ມູນ PostgreSQL
+## ຂໍ້ມູນຂອງການປົກຄອງ ບ້ານ ເມືອງ ແຂວງ ແມ່ນເປັນຂໍ້ມູນຂອງປີ 2015 ຖ້າບ້ານໃດບໍ່ມີສະແດງວ່າມີມາໃໝ່. ທາງເຮົາໄດ້ແຍກຂໍ້ມູນ ອອກເປັນ .csv file ໃຫ້ເພື່ອງ່າຍໃນການ import ຖ້າຍາກເອົາໄປໃສ່ກັບ MySQL ກະມີແຕ່ສ້າງ table ເປົ້າລະກະ insert csv ເຂົ້າໄປໄດ້ເລີ່ຍ.
+
 ທີ່ມາຂອງຂໍ້ມູນແມ່ນໄດ້ມາຈາກ https://www.k4d.la/lo/home-%e0%ba%a5%e0%ba%b2%e0%ba%a7/ 
 
 ![Screenshot 2023-11-04 at 20 38 35](https://github.com/tibeemts/laos_province_district_village/assets/72777657/3c9030bf-758a-4d83-ae03-c429618be871)
