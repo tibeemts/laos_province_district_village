@@ -8,7 +8,7 @@
 ![Screenshot 2023-11-04 at 20 36 58](https://github.com/tibeemts/laos_province_district_village/assets/72777657/0622550c-fe7f-43ae-b9d1-20fc62a24e67)
 
 
-- In this repo in cluded .sql file for postgresql excute command and .csv for data file 
+- In this repo included .sql file for postgresql excute command and .csv for data file 
 - ໃນ repo ນີ້ແມ່ນໄດ້ແບບເປັນ .sql ສຳລັບ file ທີ່ຈະເອົາໄປ excute ໃນ PostgreSQL ແລະ file .csv ເຊີ່ງເປັນ ຂໍ້ມູນທີ່ຈະ import ຫລັງຈາກໄດ້ structure ຂອງຖານຂໍ້ມູນແລ້ວ
 	---
 ### ຂໍ້ມູນແຂວງ ແມ່ນມີທັງໝົດ 18 ແຂວງໃນຖານຂໍ້ມູນ ມີຊື່ເປັນພາສາລາວ ແລະ ອັງກິດ
