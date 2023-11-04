@@ -1,7 +1,9 @@
 # Laos Administrative Database in PostgreSQL format
 # ຖານຂໍ້ມູນ ການປົກຄອງ ສປປລາວ ແຍກອອກເປັນ ແຂວງ, ເມືອງ ແລະ ບ້ານ ໃນຮູບແບບຂອງ ຖານຂໍ້ມູນ PostgreSQL
 ທີ່ມາຂອງຂໍ້ມູນແມ່ນໄດ້ມາຈາກ https://www.k4d.la/lo/home-%e0%ba%a5%e0%ba%b2%e0%ba%a7/ 
-	---
+
+Screenshot 2023-11-04 at 20.38.35.png
+
 - In this repo in cluded .sql file for postgresql excute command and .csv for data file 
 - ໃນ repo ນີ້ແມ່ນໄດ້ແບບເປັນ .sql ສຳລັບ file ທີ່ຈະເອົາໄປ excute ໃນ PostgreSQL ແລະ file .csv ເຊີ່ງເປັນ ຂໍ້ມູນທີ່ຈະ import ຫລັງຈາກໄດ້ structure ຂອງຖານຂໍ້ມູນແລ້ວ
 	---
