@@ -235,14 +235,14 @@ vil_id,vil_lo,vil_en,dist_id
 105054,ບ. ພັດທະນາ,B. Phatthana,105
 105055,ບ. ນາດີ,B. Nadi,105
 105056,ບ. ດົງຫຼວງ,B. Donglouang,105
-106001,ບ​. ຂຸດສາມບາດ,B. Khoud sam barth,106
-106002,ບ​. ທົ່ງມັ່ງ,B. Thong mang,106
-106003,ບ​. ນາກຸງ,B. Na koung,106
-106004,ບ​. ໂພນຄໍ,B. Phoun khor,106
-106005,ບ​. ຫາດກ້ຽງ,B. Harth kieng,106
-106006,ບ​. ໂພນໂຮງ,B. Phaun haung,106
-106007,ບ​. ໂພນໄຮ່ຄຳ,B. Phaun ti kham,106
-106008,ບ​. ໄຮ່,B. Hi,106
+110001,ບ​. ຂຸດສາມບາດ,B. Khoud sam barth,110
+110002,ບ​. ທົ່ງມັ່ງ,B. Thong mang,110
+110003,ບ​. ນາກຸງ,B. Na koung,101
+110004,ບ​. ໂພນຄໍ້,B. Phoun khor,110
+110005,ບ​. ຫາດກ້ຽງ,B. Harth kieng,110
+110006,ບ​. ໂພນໂຮງ,B. Phaun haung,110
+110007,ບ​. ໂພນໄຮ່ຄຳ,B. Phaun ti kham,110
+110008,ບ​. ໄຮ່,B. Hi,110
 106009,ບ​. ທ່າສະຫວ່າງ,B. Tha sa vang,106
 106010,ບ​. ເວີນຄຳ,B. Vurn kham,106
 106011,ບ​. ຈະເລີນໄຊ,B. Cha lurn say,106
@@ -252,7 +252,7 @@ vil_id,vil_lo,vil_en,dist_id
 106015,ບ​. ໂພນໄຊ,B. Phaun say,106
 106016,ບ​. ສາມສະອາດ,B. Sam sar arth,106
 106017,ບ​. ທ່າງອນ,B. Thar ngon,106
-106018,ບ​. ນາ,B. Na,106
+110018,ບ​. ນາ,B. Na,110
 106019,ບ​. ພູຄຳ,B. Phou kham,106
 106020,ບ​. ແກ້ງໄຄ້,B. Keng khay,106
 106021,ບ​. ທ່າສົມມໍ,B. Thar suam mor,106
@@ -291,33 +291,33 @@ vil_id,vil_lo,vil_en,dist_id
 106054,ບ​. ດົງບັງ,B. Dong bang,106
 106055,ບ​. ໂນນແຕ້,B. Naun taa,106
 106056,ບ​. ໂພນຕ້ອງ,B. Phaun tong,106
-106057,ບ​. ຫາດພະອິນ,B. Hardpha eanh,106
-106058,ບ​. ດວງບຸດດີ,B. Duang boud dee,106
+110057,ບ​. ຫາດພະອິນ,B. Hardpha eanh,110
+110058,ບ​. ດວງບຸດດີ,B. Duang boud dee,110
 106059,ບ​. ທ່າດອກຄຳ,B. Tha dork kham,106
 106060,ບ​. ນາແຖ,B. Na thaa,106
 106061,ບ​. ໂພນງາມ2,B. Phaun ngam song,106
 106062,ບ​. ໂພນງາມ1,B. Phaun ngam neung,106
-106063,ບ​. ທ່າດິນແດງເຫນືອ,B. Tha dean deng nuea,106
-106064,ບ​. ທ່າດິນແດງໃຕ້,B. Tha deanh deng tay,106
+110063,ບ​. ທ່າດິນແດງເຫນືອ,B. Tha dean deng nuea,110
+110064,ບ​. ທ່າດິນແດງໃຕ້,B. Tha deanh deng tay,110
 106065,ບ​. ນາພອກ,B. Na phork,106
 106066,ບ​. ປາກຊາບເກົ່າ,B. Pak sap kow,106
 106067,ບ​. ປາກຊາບໃຫມ່,B. Pak sap may,106
 106068,ບ​. ແສນອຸດົມ,B. San ou dom,106
 106069,ບ​. ສົມສະໃຫມ,B. Saum sar may,106
-106070,ບ​. ເວີນແທນ,B. Vurn tan,106
+110070,ບ​. ເວີນແທນ,B. Vurn tan,110
 106071,ບ​. ປ່າໄລ່,B. Pa lay,106
 106072,ບ​. ດູນອຽນ,B. Doun eian,106
 106073,ບ​. ນາຂາວ,B. Na khao,106
-106074,ບ​. ທ່າຈຳປາ,B. Tha cham pa,106
-106075,ບ​. ນາຕານ,B. Natanh,106
-106076,ບ​. ນາໂງນໃຫມ່,B. Na ngaun may,106
-106077,ບ​. ນາໂງນເກົ່າ,B. Na ngaun kow,106
-106078,ບ​. ນາຄາຍ,B. Na khy,106
-106079,ບ​. ນາຄັນທຸງ,B. Na khan thoung,106
-106080,ບ​. ຫົວນາ,B. Houa na,106
-106081,ບ​. ຫົວຂົວ,B. Houa khoua,106
-106082,ບ​. ໂພນແພງ,B. Phaun phang,106
-106083,ບ​. ຊຳບອນ,B. Sam born,106
+110074,ບ​. ທ່າຈຳປາ,B. Tha cham pa,110
+110075,ບ​. ນາຕານ,B. Natanh,110
+110076,ບ​. ນາໂງ່ມໃຫມ່,B. Na ngaun may,110
+110077,ບ​. ນາໂງ່ມເກົ່າ,B. Na ngaun kow,110
+110078,ບ​. ນາຄາຍ,B. Na khy,110
+110079,ບ​. ນາຄັນທຸງ,B. Na khan thoung,110
+110080,ບ​. ຫົວນາ,B. Houa na,110
+110081,ບ​. ຫົວຂົວ,B. Houa khoua,110
+110082,ບ​. ໂພນແພງ,B. Phaun phang,110
+110083,ບ​. ຊຳບອນ,B. Sam born,110
 106084,ບ​. ໂຄກສີວິໄລ,B. Khauk sivilay,106
 106085,ບ​. ໄຊສົມບູນ,B. Say saum boun,106
 106086,ບ​. ໂຄກສະອາດ,B. Khauk sa ard,106
