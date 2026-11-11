@@ -1,0 +1,62 @@
+level,old_code,new_code,what,detail
+district,0110,0106,district removed,"Dan Xang Mixay never became a district; its 24 villages are sub-district ຕາແສງຊ້າງມີໄຊ in Xaythany (0106), declared 31 Dec 2025"
+district,0502,0502,Lao name corrected (confirmed),ມ. ຕົ້ນເຜີ້ງ -> ມ. ຕົ້ນເຜິ້ງ: ເຜີ້ງ -> ເຜິ້ງ
+district,0805,0805,Lao name corrected (confirmed),ມ. ຊຽງຮອນ -> ມ. ຊຽງຮ່ອນ: missing tone mark
+district,1011,1013,code corrected,Meun district code is 1013 (its villages were already 1013xxx)
+district,1304,1304,Lao name corrected (confirmed),ມ. ພີນ -> ມ. ພິນ: ພີນ -> ພິນ
+district,1306,1306,Lao name corrected (confirmed),ມ. ນອງ -> ມ. ໜອງ: ນອງ -> ໜອງ
+district,1402,1402,Lao name corrected (confirmed),ມ. ຕາໂອຍ -> ມ. ຕະໂອ້ຍ: ຕາໂອຍ -> ຕະໂອ້ຍ
+district,1408,1408,Lao name corrected (confirmed),ມ. ສະມ້ວຍ -> ມ. ສະໝ້ວຍ: double invisible char + ມ -> ໝ
+district,1502,1502,Lao name corrected (confirmed),ມ. ກະລຶມ -> ມ. ກະເລິມ: ກະລຶມ -> ກະເລິມ
+district,1504,1504,Lao name corrected (confirmed),ມ. ທ່າແຕ່ງ -> ມ. ທ່າແຕງ: ທ່າແຕ່ງ -> ທ່າແຕງ
+district,1603,1603,Lao name corrected (confirmed),ມ. ບາຈຽງ -> ມ. ບາຈຽງຈະເລີນສຸກ: name was cut short (ບາຈຽງ)
+district,1609,1609,Lao name corrected (confirmed),ມ. ມຸນລະປະໂມກ -> ມ. ມູນລະປະໂມກ: ມຸນ -> ມູນ
+district,1702,1702,Lao name corrected (confirmed),ມ. ສາມະຄີໄຊ -> ມ. ສາມັກຄີໄຊ: ສາມະຄີໄຊ -> ສາມັກຄີໄຊ
+district,1705,1705,Lao name corrected (confirmed),I -> ມ. ພູວົງ: Lao name was the letter 'I'
+village,0110001,0106001,code/district corrected,dist_id 110 -> 106
+village,0110002,0106002,code/district corrected,dist_id 110 -> 106
+village,0110003,0106003,code/district corrected,dist_id 101 -> 106
+village,0110004,0106004,code/district corrected,dist_id 110 -> 106
+village,0110005,0106005,code/district corrected,dist_id 110 -> 106
+village,0110006,0106006,code/district corrected,dist_id 110 -> 106
+village,0110007,0106007,code/district corrected,dist_id 110 -> 106
+village,0110008,0106008,code/district corrected,dist_id 110 -> 106
+village,0110018,0106018,code/district corrected,dist_id 110 -> 106
+village,0110057,0106057,code/district corrected,dist_id 110 -> 106
+village,0110058,0106058,code/district corrected,dist_id 110 -> 106
+village,0110063,0106063,code/district corrected,dist_id 110 -> 106
+village,0110064,0106064,code/district corrected,dist_id 110 -> 106
+village,0110070,0106070,code/district corrected,dist_id 110 -> 106
+village,0110074,0106074,code/district corrected,dist_id 110 -> 106
+village,0110075,0106075,code/district corrected,dist_id 110 -> 106
+village,0110076,0106076,code/district corrected,dist_id 110 -> 106
+village,0110077,0106077,code/district corrected,dist_id 110 -> 106
+village,0110078,0106078,code/district corrected,dist_id 110 -> 106
+village,0110079,0106079,code/district corrected,dist_id 110 -> 106
+village,0110080,0106080,code/district corrected,dist_id 110 -> 106
+village,0110081,0106081,code/district corrected,dist_id 110 -> 106
+village,0110082,0106082,code/district corrected,dist_id 110 -> 106
+village,0110083,0106083,code/district corrected,dist_id 110 -> 106
+village,1013001,1013001,code/district corrected,dist_id 1011 -> 1013
+village,1013002,1013002,code/district corrected,dist_id 1011 -> 1013
+village,1013003,1013003,code/district corrected,dist_id 1011 -> 1013
+village,1013004,1013004,code/district corrected,dist_id 1011 -> 1013
+village,1013005,1013005,code/district corrected,dist_id 1011 -> 1013
+village,1013006,1013006,code/district corrected,dist_id 1011 -> 1013
+village,1013007,1013007,code/district corrected,dist_id 1011 -> 1013
+village,1013008,1013008,code/district corrected,dist_id 1011 -> 1013
+village,1013009,1013009,code/district corrected,dist_id 1011 -> 1013
+village,1013010,1013010,code/district corrected,dist_id 1011 -> 1013
+village,1013011,1013011,code/district corrected,dist_id 1011 -> 1013
+village,1013012,1013012,code/district corrected,dist_id 1011 -> 1013
+village,1013013,1013013,code/district corrected,dist_id 1011 -> 1013
+village,1013014,1013014,code/district corrected,dist_id 1011 -> 1013
+village,1013015,1013015,code/district corrected,dist_id 1011 -> 1013
+village,1013016,1013016,code/district corrected,dist_id 1011 -> 1013
+village,1013017,1013017,code/district corrected,dist_id 1011 -> 1013
+village,1013018,1013018,code/district corrected,dist_id 1011 -> 1013
+village,1013019,1013019,code/district corrected,dist_id 1011 -> 1013
+village,1013020,1013020,code/district corrected,dist_id 1011 -> 1013
+village,1013021,1013021,code/district corrected,dist_id 1011 -> 1013
+village,1013022,1013022,code/district corrected,dist_id 1011 -> 1013
+village,1609090,1609090,English name added,was empty
