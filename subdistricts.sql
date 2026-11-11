@@ -15,7 +15,11 @@ CREATE TABLE "public"."subdistricts" (
   "status" varchar(20) NOT NULL DEFAULT 'declared',       -- planned | approved | declared
   "approved_date" date,
   "declared_date" date,
-  "source" text
+  "source" text,
+  "planned_declaration" varchar(50),   -- planned declaration date as published, e.g. '19-30/6/2026', '7/2026'
+  "office_lo" varchar(255) COLLATE "pg_catalog"."default",  -- where the ຕາແສງ office is
+  "office_vil_code" char(7),           -- village of the office (empty if not yet identified)
+  "status_as_of" date                  -- date of the source the status comes from
 )
 ;
 

@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.1.0 — 2026-11
+
+### Added
+- All **33 ຕາແສງ of Vientiane Capital** (9 districts) from the official plan table of 7 June 2026
+  (`sources/vientiane_capital_subdistricts_2026-06-07.jpg`). ຕາແສງຊ້າງມີໄຊ is declared; the other 32 are `planned`
+  with their planned declaration date.
+- `subdistricts` columns: `planned_declaration`, `office_lo`, `office_vil_code` (village of the ຕາແສງ office),
+  `status_as_of`. Three office villages are not yet identified in the village list (ບ້ານຊ້ອມ, ບ້ານໂດນ,
+  ບ້ານໃຫຍ່ນາຈະເລີນ) and are left empty.
+
 ## 2.0.0 — 2026-11
 
 Checked against the LUIS (Department of Land) administrative tables. Every changed code and name is listed in

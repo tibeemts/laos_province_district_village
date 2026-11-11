@@ -8,7 +8,7 @@ Version 2 (2026) ໄດ້ກວດ ແລະ ແກ້ໄຂຂໍ້ມູນ 
 |---|---|---|---|
 | Province | ແຂວງ | 18 | `provinces.csv` |
 | District | ເມືອງ | 148 | `districts.csv` |
-| Sub-district | ຕາແສງ | 1 (more to come) | `subdistricts.csv` |
+| Sub-district | ຕາແສງ | 33 (Vientiane Capital; other provinces to come) | `subdistricts.csv` |
 | Village | ບ້ານ | 8,509 | `villages.csv` |
 
 ## Quick start
@@ -26,7 +26,7 @@ CSV files are UTF-8 with a header row.
 |---|---|
 | provinces | `prov_id`, `prov_lo`, `prov_en`, `prov_code` |
 | districts | `prov_id`, `dist_id`, `dist_lo`, `dist_en`, `dist_code`, `prov_code` |
-| subdistricts | `subdist_id`, `subdist_code`, `subdist_lo`, `subdist_en`, `dist_id`, `dist_code`, `status`, `approved_date`, `declared_date`, `source` |
+| subdistricts | `subdist_id`, `subdist_code`, `subdist_lo`, `subdist_en`, `dist_id`, `dist_code`, `status`, `approved_date`, `declared_date`, `source`, `planned_declaration`, `office_lo`, `office_vil_code`, `status_as_of` |
 | villages | `vil_id`, `vil_lo`, `vil_en`, `dist_id`, `vil_code`, `dist_code`, `subdist_id`, `lat`, `lon` |
 
 - `*_id` are the same integer ids as version 1, so existing projects keep working.
@@ -41,12 +41,27 @@ CSV files are UTF-8 with a header row.
 Laos is re-introducing the ຕາແສງ level between district and village (reform announced January 2025; 640 approved
 nationwide in November 2025; 379 declared by mid-June 2026). Each ຕາແສງ groups 1–24 villages.
 
-- Included now: **ຕາແສງຊ້າງມີໄຊ (Xangmixay)**, Xaythany district, Vientiane Capital — approved 22 May 2025, declared
-  31 Dec 2025, 24 villages.
-- Planned in the same area and not yet included (no published village lists): Sivilay, Hua Xieng, Dong Bung, Tha Ngon —
-  part of 36 planned for Vientiane Capital.
-- `subdist_code` = district code + 2-digit sequence (e.g. `010601`). This is assigned by this repository until the
-  Ministry of Home Affairs publishes official codes.
+**Vientiane Capital — all 33 ຕາແສງ in 9 districts** (plan table of 7 June 2026, kept in `sources/`):
+
+| District | ຕາແສງ |
+|---|---|
+| ຈັນທະບູລີ | ວັດຈັນ, ໂພນຕ້ອງ, ໜອງທາ |
+| ສີໂຄດຕະບອງ | ສີໄຄ, ເກົ້າລ້ຽວ, ໜອງດ້ວງ, ໜອງໜ້ຽວ |
+| ໄຊເສດຖາ | ທາດຫຼວງ, ໂນນຫວາຍ, ວັງຊາຍ, ດົງພັດທະນາ |
+| ສີສັດຕະນາກ | ເພຍວັດ, ວັດນາກ, ຈອມແຈ້ງ |
+| ນາຊາຍທອງ | ສີເກີດ, ອີໄລ, ໂພນທອງ |
+| ໄຊທານີ | ຊ້າງມີໄຊ, ສີວິໄລ, ຫົວຊຽງ, ດົງບັງ, ທ່າງ່ອນ |
+| ຫາດຊາຍຟອງ | ບໍ່ໂອ, ຊາຍຟອງ, ສາລະຄຳ, ທ່າເດື່ອ, ສົມມະໄນ |
+| ສັງທອງ | ເພຍລາດ, ສະໄກ, ນາຈະເລີນ |
+| ປາກງື່ມ | ສິນໄຊ, ດົງກະລຶມ, ນາຊອນ |
+
+- **ຕາແສງຊ້າງມີໄຊ** (Xaythany) was declared on 31 Dec 2025, and its 24 villages are linked in `villages.csv`.
+- The other 32 have `status = planned` with the planned declaration date from the table (`planned_declaration`, June–August
+  2026) and the village where the ຕາແສງ office is (`office_lo`, `office_vil_code`). `status_as_of` is the date of the
+  source (2026-06-07); update `status`, `declared_date` and the villages' `subdist_id` when each one's declaration and
+  village list are published.
+- `subdist_code` = district code + the ຕາແສງ's number in the official table (e.g. `010601`). This is assigned by this
+  repository until the Ministry of Home Affairs publishes official codes.
 
 **To add a ຕາແສງ:** add a row to `subdistricts.csv`, then set `subdist_id` on its villages in `villages.csv`.
 Please cite the official announcement in `source`.
