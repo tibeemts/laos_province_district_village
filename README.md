@@ -55,11 +55,21 @@ nationwide in November 2025; 379 declared by mid-June 2026). Each ຕາແສ�
 | ສັງທອງ | ເພຍລາດ, ສະໄກ, ນາຈະເລີນ |
 | ປາກງື່ມ | ສິນໄຊ, ດົງກະລຶມ, ນາຊອນ |
 
-- **ຕາແສງຊ້າງມີໄຊ** (Xaythany) was declared on 31 Dec 2025, and its 24 villages are linked in `villages.csv`.
-- The other 32 have `status = planned` with the planned declaration date from the table (`planned_declaration`, June–August
-  2026) and the village where the ຕາແສງ office is (`office_lo`, `office_vil_code`). `status_as_of` is the date of the
-  source (2026-06-07); update `status`, `declared_date` and the villages' `subdist_id` when each one's declaration and
-  village list are published.
+- **11 ຕາແສງ have their published village lists, and their villages are linked in `villages.csv`
+  (`subdist_id`), 180 villages in all:**
+  - Xaythany: ຊ້າງມີໄຊ (24 villages), ສີວິໄລ (23), ຫົວຊຽງ (23), ດົງບັງ (17).
+  - Sikhottabong: ສີໄຄ (22), ເກົ້າລ້ຽວ (14), ໜອງດ້ວງ (12), ໜອງໜ້ຽວ (8).
+  - Sisattanak: ເພຍວັດ (15), ວັດນາກ (8), ຈອມແຈ້ງ (14). All 37 villages of the district are covered.
+- **Not yet in a ຕາແສງ:**
+  - 4 Sikhottabong villages appear in none of its 4 lists: ດົງນາໂຊກໄຕ້, ດົງນາໂຊກເໜືອ, ປາກທ້າງ, ໂພນຄຳ.
+  - The 17 remaining Xaythany villages are most likely ຕາແສງທ່າງ່ອນ (its office is in ບ້ານພູຄຳ), but its list is
+    not published yet.
+- The other 22 ຕາແສງ have `status = planned` with the planned declaration date from the table (`planned_declaration`,
+  June–August 2026) and the village where the ຕາແສງ office is (`office_lo`, `office_vil_code`).
+- `status_as_of` is the date of the source the row is based on. When a ຕາແສງ's village list is published, set
+  `status`, `declared_date` and its villages' `subdist_id`.
+- Village names spelled differently in the ຕາແສງ lists are in `review/village_names_vs_subdistrict_lists.csv`; they
+  are not renamed here.
 - `subdist_code` = district code + the ຕາແສງ's number in the official table (e.g. `010601`). This is assigned by this
   repository until the Ministry of Home Affairs publishes official codes.
 

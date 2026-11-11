@@ -9,6 +9,11 @@
 - `subdistricts` columns: `planned_declaration`, `office_lo`, `office_vil_code` (village of the ຕາແສງ office),
   `status_as_of`. Three office villages are not yet identified in the village list (ບ້ານຊ້ອມ, ບ້ານໂດນ,
   ບ້ານໃຫຍ່ນາຈະເລີນ) and are left empty.
+- **Village membership for 10 more ຕາແສງ** from their published lists: Sikhottabong (ສີໄຄ, ເກົ້າລ້ຽວ, ໜອງດ້ວງ,
+  ໜອງໜ້ຽວ), Sisattanak (ເພຍວັດ, ວັດນາກ, ຈອມແຈ້ງ), Xaythany (ສີວິໄລ, ຫົວຊຽງ declared 13 Jul 2026, ດົງບັງ declared
+  9 Jul 2026). 156 villages linked, so 180 including ຊ້າງມີໄຊ.
+- Offices corrected from the lists: ເພຍວັດ is at ບ້ານສະພານທອງກາງ, ວັດນາກ at ບ້ານໂພນປ່າເປົ້າ.
+- `review/village_names_vs_subdistrict_lists.csv`: 22 villages spelled differently in the ຕາແສງ lists.
 
 ## 2.0.0 — 2026-11
 
